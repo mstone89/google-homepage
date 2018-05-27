@@ -7,6 +7,12 @@ body {
   margin: 0 0 100px;
 }
 
+ul li {
+  list-style-type: none;
+  padding: 0px;
+  display: inline;
+}
+
 .logo {
   height: 95px;
   margin-bottom: 25px
@@ -26,20 +32,18 @@ body {
   padding-left: 20px;
 }
 
-.header-margin {
+.main-header {
   margin-top: 25px;
   margin-bottom: 25px;
-  width: 100%;
 }
 
 .header-left {
-  max-width: 200px;
   float: left;
 }
 
 .header-right {
-  max-width: 400px;
   float: right;
+  padding-right: 20px;
 }
 
 .searchbar {
@@ -69,6 +73,7 @@ body {
   padding-left: 0px;
   position: absolute;
   background-color: #efefef;
+  border-top: 1px solid #e5e5e5;
   left: 0;
   bottom: 0;
   width: 100%;
