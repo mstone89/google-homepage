@@ -1,11 +1,16 @@
 img {
-  height: 100px;
+  height: 95px;
 }
 
 .center {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.center-text {
+  text-align: center;
 }
 
 .header {
@@ -15,4 +20,9 @@ img {
   opacity: .75;
   font-size: 14px;
   padding-left: 15px;
+}
+
+.header-margin {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
