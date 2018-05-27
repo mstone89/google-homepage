@@ -1,19 +1,26 @@
-img {
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 100px;
+}
+
+.logo {
   height: 95px;
+  margin-bottom: 25px
+}
+
+.style-searchform {
+  margin-top: 150px
 }
 
 .center {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
-}
-
-.center-text {
   text-align: center;
 }
 
-.header {
+.header-text {
   font-family: Arial;
   color: black;
   text-decoration: none;
@@ -25,4 +32,45 @@ img {
 .header-margin {
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.searchbar {
+  width: 445px;
+  height: 30px;
+}
+
+.button {
+  background-color: #efefef;
+  border: none;
+  color: #666;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: 700;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.button-margin {
+  margin-top: 25px;
+}
+
+.footer-margin {
+  height: 40px;
+  padding-left: 0px;
+  position: absolute;
+  background-color: #efefef;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-text {
+  font-family: Arial;
+  color: black;
+  text-decoration: none;
+  opacity: .6;
+  font-size: 14px;
+  padding-left: 15px;
 }
