@@ -12,12 +12,9 @@ body {
   margin-bottom: 25px
 }
 
-.style-searchform {
-  margin-top: 150px
-}
-
 .center {
   text-align: center;
+  margin-top: 150px;
 }
 
 .header-text {
@@ -26,16 +23,27 @@ body {
   text-decoration: none;
   opacity: .75;
   font-size: 14px;
-  padding-left: 15px;
+  padding-left: 20px;
 }
 
 .header-margin {
   margin-top: 25px;
   margin-bottom: 25px;
+  width: 100%;
+}
+
+.header-left {
+  max-width: 200px;
+  float: left;
+}
+
+.header-right {
+  max-width: 400px;
+  float: right;
 }
 
 .searchbar {
-  width: 445px;
+  width: 505px;
   height: 30px;
 }
 
